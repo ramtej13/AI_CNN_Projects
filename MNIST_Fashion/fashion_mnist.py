@@ -97,9 +97,6 @@ print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
 
 single_image = x_test[10]
-
 print(model.predict_classes(single_image.reshape(1,28,28,1)))
-
-
 
 
